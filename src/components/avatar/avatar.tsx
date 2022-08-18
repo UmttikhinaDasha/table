@@ -17,8 +17,7 @@ const Avatar: React.FC<IAvatar> = ({ firstName, lastName, photo = avatar }) => {
         <div className='avatar'>
             <img alt='above_photo' className='avatar__image' src={photo} />
             <img alt='bell' className='avatar__bell' src={bell} />
-            <span className='avatar__name'>{firstName}</span>
-            <span className='avatar__name'>{lastName}</span>
+            <span className='avatar__name'>{`${firstName} ${lastName}`}</span>
         </div>
     );
 };

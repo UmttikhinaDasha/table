@@ -1,36 +1,42 @@
 .avatar{
+  display: grid;
   grid-area: avatar;
   padding-top: 40px;
-  padding-left: 84px;
-  width: 200px;
+  padding-left: 50px;
+  height: 150px;
+  grid-template-columns: 120px  1fr;
+  grid-template-rows: 80px 1fr;
+  grid-template-areas: 'image bell'
+                       'name bell';
 
   &__image{
+    grid-area: image;
+    justify-self:center;
     height: 80px;
     width: 80px;
     border-radius: 0;
   }
 
   &__name{
+    grid-area: name;
+    display: flex;
+
+    text-align: center;
+    padding-top: 16px;
+
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.75px;
-
     color: #324552;
   }
 
   &__bell{
-    display: inline-block;
+    grid-area: bell;
     height: 18px;
     width: 18px;
-    left: 3px;
-    top: 3px;
-    margin-bottom: 60px;
+
   }
 }
