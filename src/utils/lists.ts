@@ -11,7 +11,7 @@ export const TABLE_HEADERS: string[] = [
 ];
 
 interface IDataTable {
-    id: number;
+    id: string;
     status: string;
     name: string;
     phone: string;
@@ -24,7 +24,7 @@ interface IDataTable {
 
 export const DATA_TABLE: IDataTable[] = [
     {
-        id: 101,
+        id: '101',
         status: 'Активен',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',
@@ -37,7 +37,7 @@ export const DATA_TABLE: IDataTable[] = [
         price: '$100',
     },
     {
-        id: 102,
+        id: '102',
         status: 'Завершен',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',
@@ -50,7 +50,7 @@ export const DATA_TABLE: IDataTable[] = [
         price: '$100',
     },
     {
-        id: 101,
+        id: '101',
         status: 'Активен',
         name: 'Мария Некрасова',
         phone: '8-911-111-11-11',
@@ -63,7 +63,7 @@ export const DATA_TABLE: IDataTable[] = [
         price: '$100',
     },
     {
-        id: 1110,
+        id: '1110',
         status: 'Активен',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',
@@ -76,7 +76,7 @@ export const DATA_TABLE: IDataTable[] = [
         price: '$1',
     },
     {
-        id: 101,
+        id: '101',
         status: 'Активен',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',
@@ -89,7 +89,7 @@ export const DATA_TABLE: IDataTable[] = [
         price: '$100',
     },
     {
-        id: 101,
+        id: '101',
         status: 'Активен',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',

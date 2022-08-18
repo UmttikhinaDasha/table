@@ -17,8 +17,8 @@ const LIST_SIDE_BAR_ITEM: string[] = [
 const SideBar = () => {
     return (
         <div className='side-bar'>
-            {LIST_SIDE_BAR_ITEM.map((item) => (
-                <SideBarItem>{item}</SideBarItem>
+            {LIST_SIDE_BAR_ITEM.map((item, i) => (
+                <SideBarItem key={i}>{item}</SideBarItem>
             ))}
             <SideBarPhone>8(800)2356754</SideBarPhone>
         </div>

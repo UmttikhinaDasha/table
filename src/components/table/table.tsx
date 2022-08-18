@@ -9,14 +9,14 @@ const Table = () => {
             <table className='table'>
                 <thead>
                     <tr>
-                        {TABLE_HEADERS.map((header) => (
-                            <th>{header}</th>
+                        {TABLE_HEADERS.map((header, i) => (
+                            <th key={i}>{header}</th>
                         ))}
                     </tr>
                 </thead>
                 <tbody>
-                    {DATA_TABLE.map((rowData) => (
-                        <TableRow rowData={Object.values(rowData)} />
+                    {DATA_TABLE.map((rowData, i) => (
+                        <TableRow key={i} rowData={Object.values(rowData)} />
                     ))}
                 </tbody>
             </table>
