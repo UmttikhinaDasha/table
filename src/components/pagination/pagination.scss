@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+.pages {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.page {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #A3AEB9;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.page:hover {
+  background-color: #2295F2;;
+  color: #FFFFFF;
+}
+
+.active {
+  background-color: #2295F2;;
+  color: #FFFFFF;
+}

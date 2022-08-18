@@ -1,0 +1,22 @@
+.side-bar__telephone{
+  display: flex;
+  padding-top: 15px;
+
+  &__image{
+    height: 19px;
+    width: 19px;
+    left: 2.5px;
+    top: 2.5px;
+  }
+  &__link{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    padding-left: 8px;
+    color: #2295F2;
+  }
+}

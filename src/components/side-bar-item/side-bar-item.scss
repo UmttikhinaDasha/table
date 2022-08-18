@@ -1,0 +1,20 @@
+.side-bar__item{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  color: #324552;
+}
+
+.side-bar__item:hover{
+  text-decoration: #2295F2 underline;
+}

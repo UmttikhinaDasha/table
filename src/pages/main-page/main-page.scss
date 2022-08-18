@@ -1,0 +1,41 @@
+.wrap{
+  display: grid;
+  grid-template-columns: 16% 1fr 1fr;
+  grid-template-areas: 'header header header'
+                       'avatar content content'
+                       'aside content content'
+                       'aside content content';
+}
+
+.content{
+  grid-area: content;
+  background: #FCFCFC;
+  border-radius: 30px;
+  min-width: 100%;
+  margin-top: 40px;
+  margin-right: 32px;
+
+  font-family: 'Inter', sans-serif;
+  color: #324552;
+
+  &__title{
+    font-size: 32px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-weight: 700;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+  }
+
+  &__search-field-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin-top: 16px;
+    margin-left: 40px;
+    margin-right: 16px;
+  }
+}

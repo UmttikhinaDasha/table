@@ -1,0 +1,60 @@
+.table{
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.wrapper-table{
+  display: block;
+  width:100%;
+}
+
+.wrapper-table table {
+  display: block;
+  max-width: 100%;
+  table-layout: fixed;
+  white-space: nowrap;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow-x: auto;
+  padding-bottom: 24px;
+}
+
+/* полоса прокрутки (скроллбар) */
+table::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* ползунок скроллбара */
+table::-webkit-scrollbar-thumb {
+  width: 731px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background: #2295F2;
+  border-radius: 10px;
+}
+
+tbody tr{
+  background: #F2F9FE;
+}
+
+th {
+  text-align: left;
+  padding: 1rem;
+}
+
+td {
+  border-bottom: solid 1px #2295F2;
+  padding: 20px;
+}
+
+tr:first-child td { border-top: solid 1px #2295F2; }
+
+tr td:first-child { border-top-left-radius: 12px; }
+tr td:last-child { border-top-right-radius: 12px; }
+
+tr td:first-child { border-bottom-left-radius: 12px; }
+tr td:last-child { border-bottom-right-radius: 12px; }
+
+
+tr td:first-child { border-left: solid 1px #2295F2; }
+tr td:last-child { border-right: solid 1px #2295F2; padding-bottom: 20px }

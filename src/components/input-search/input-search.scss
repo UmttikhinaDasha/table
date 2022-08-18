@@ -1,0 +1,22 @@
+.field-search{
+  width: 397px;
+  height: 56px;
+  background: #FFFFFF;
+  border-radius: 12px;
+
+  &__input {
+    position: absolute;
+    width: 397px;
+    height: 56px;
+    padding: 0.6rem 0 0.4rem 3.5rem;
+    font-size: inherit;
+    letter-spacing: inherit;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    caret-color: transparent;
+
+    background: url('../../images/search.svg');
+    background-repeat: no-repeat;
+    background-position: 1rem !important;
+  }
+}
