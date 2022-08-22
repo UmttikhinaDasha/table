@@ -1,4 +1,7 @@
 .wrap{
+  font-family: 'Inter', sans-serif;
+  color: #324552;
+
   display: grid;
   grid-template-columns: 16% 1fr 1fr;
   grid-template-areas: 'header header header'
@@ -16,8 +19,6 @@
   margin-right: 32px;
   margin-left: 60px;
 
-  font-family: 'Inter', sans-serif;
-  color: #324552;
 
   &__title{
     font-size: 32px;

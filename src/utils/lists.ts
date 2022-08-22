@@ -102,3 +102,19 @@ export const DATA_TABLE: IDataTable[] = [
         price: '$100',
     },
 ];
+
+export const LIST_STATUS_CLIENT: string[] = [
+    'Активен',
+    'Отменён',
+    'Завершён',
+    'Приостановлен',
+];
+
+export const LIST_OF_PARTNERS: string[] = [
+    'Иван Иванов',
+    'Виталий Кузнецов',
+    'Петр Петров',
+    'Екатерина Турова',
+    'Алексей Иванов',
+    'Сергей Кузнецов',
+];

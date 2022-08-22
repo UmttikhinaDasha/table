@@ -20,12 +20,9 @@
   &__name{
     grid-area: name;
     display: flex;
-
     text-align: center;
     padding-top: 16px;
 
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
@@ -37,6 +34,5 @@
     grid-area: bell;
     height: 18px;
     width: 18px;
-
   }
 }

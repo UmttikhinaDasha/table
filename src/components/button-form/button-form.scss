@@ -1,0 +1,22 @@
+.button-form {
+    width: 338px;
+    height: 64px;
+    margin-bottom: 57px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #f7f7fc;
+
+    border-radius: 10px;
+    border: none;
+    background: #2295f2;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 16px 20px 16px 10px;
+    }
+}

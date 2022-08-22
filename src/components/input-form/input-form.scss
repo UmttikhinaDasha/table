@@ -1,0 +1,36 @@
+.field-form{
+  width: 100%;
+  color: #6E7191;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  &__label{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    padding-bottom: 8px;
+    padding-top: 24px;
+  }
+
+  &__input{
+    display: block;
+    height: 57px;
+    width: 100%;
+    background: #EFF0F7;
+    border-radius: 16px;
+    color: #A0A3BD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 15px 26px 14px 24px;
+    border: transparent;
+  }
+
+  &__input:focus{
+    color: black;
+    background: white;
+  }
+
+}

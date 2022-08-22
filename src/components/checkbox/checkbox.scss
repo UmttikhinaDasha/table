@@ -1,0 +1,38 @@
+.checkbox{
+  display: flex;
+  width: 100%;
+  color: black;
+  padding: 30px 32px;
+
+  & input{
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  &__input{
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    border: 1px solid #A0A3BD;
+    border-radius: 15px;
+  }
+
+  &__input:checked{
+    border: none;
+    background-color: #2196F3;
+    background-image: url('../../images/checkMark.svg');
+    background-repeat: no-repeat;
+    background-position: center ;
+  }
+
+  &__label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #324552;
+    padding-left: 16px;
+  }
+}
+
+
