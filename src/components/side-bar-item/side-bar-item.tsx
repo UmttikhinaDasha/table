@@ -6,7 +6,7 @@ interface ISideBarItem {
 }
 
 const SideBarItem: React.FC<ISideBarItem> = ({ children }) => {
-    return <a className='side-bar__item'>{children}</a>;
+    return <span className='side-bar__item'>{children}</span>;
 };
 
 export default SideBarItem;

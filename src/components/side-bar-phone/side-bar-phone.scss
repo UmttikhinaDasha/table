@@ -1,3 +1,5 @@
+@import '../../style/variables.scss';
+
 .side-bar__telephone{
   display: flex;
   padding-top: 15px;
@@ -17,6 +19,6 @@
     text-align: center;
 
     padding-left: 8px;
-    color: #2295F2;
+    color: $main-sky-blue;
   }
 }

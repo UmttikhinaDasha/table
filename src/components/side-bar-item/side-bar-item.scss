@@ -1,5 +1,6 @@
+@import '../../style/variables.scss';
+
 .side-bar__item{
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -12,9 +13,9 @@
   padding-top: 18px;
   padding-bottom: 18px;
 
-  color: #324552;
+  color: $black;
 }
 
 .side-bar__item:hover{
-  text-decoration: #2295F2 underline;
+  text-decoration: $main-sky-blue underline;
 }

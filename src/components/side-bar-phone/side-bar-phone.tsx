@@ -15,7 +15,7 @@ const SideBarPhone: React.FC<ISideBarPhone> = ({ children }) => {
                 className='side-bar__telephone__image'
                 src={phone}
             />
-            <a className='side-bar__telephone__link'>{children}</a>
+            <span className='side-bar__telephone__link'>{children}</span>
         </span>
     );
 };

@@ -1,6 +1,7 @@
+@import '../../style/variables.scss';
+
 .field-form{
   width: 100%;
-  color: #6E7191;
   padding-left: 32px;
   padding-right: 32px;
 
@@ -18,19 +19,18 @@
     display: block;
     height: 57px;
     width: 100%;
-    background: #EFF0F7;
+    background: $background-input;
     border-radius: 16px;
-    color: #A0A3BD;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     padding: 15px 26px 14px 24px;
     border: transparent;
+    transition: 0.5s;
   }
 
   &__input:focus{
     color: black;
     background: white;
   }
-
 }

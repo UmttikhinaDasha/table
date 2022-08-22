@@ -38,7 +38,7 @@ export const DATA_TABLE: IDataTable[] = [
     },
     {
         id: '102',
-        status: 'Завершен',
+        status: 'Заблокирован',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',
         check: '21.12.2020  16:57',
@@ -51,7 +51,7 @@ export const DATA_TABLE: IDataTable[] = [
     },
     {
         id: '101',
-        status: 'Активен',
+        status: 'Заблокирован',
         name: 'Мария Некрасова',
         phone: '8-911-111-11-11',
         check: '21.12.2020  16:57',
@@ -77,7 +77,7 @@ export const DATA_TABLE: IDataTable[] = [
     },
     {
         id: '101',
-        status: 'Активен',
+        status: 'В архивe',
         name: 'Иван Иванов',
         phone: '8-911-111-11-11',
         check: '21.12.2020  16:57',
@@ -103,12 +103,11 @@ export const DATA_TABLE: IDataTable[] = [
     },
 ];
 
-export const LIST_STATUS_CLIENT: string[] = [
-    'Активен',
-    'Отменён',
-    'Завершён',
-    'Приостановлен',
-];
+export const LIST_STATUS_CLIENT: { [status: string]: string } = {
+    [`Активен`]: 'green',
+    [`Заблокирован`]: 'red',
+    [`В архивe`]: 'blue',
+};
 
 export const LIST_OF_PARTNERS: string[] = [
     'Иван Иванов',

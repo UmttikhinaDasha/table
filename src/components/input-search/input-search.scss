@@ -1,7 +1,7 @@
 .field-search{
   width: 397px;
   height: 56px;
-  background: #FFFFFF;
+  background: white;
   border-radius: 12px;
 
   &__input {
@@ -13,6 +13,7 @@
     border-radius: 16px;
     border: 2px solid transparent;
     caret-color: transparent;
+    transition: 0.5s;
 
     background: url('../../images/search.svg');
     background-repeat: no-repeat;

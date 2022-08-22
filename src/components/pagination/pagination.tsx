@@ -10,12 +10,12 @@ const Pagination = () => {
     return (
         <div className='pagination'>
             <img src={leftArrow} alt='left-arrow' />
-            <div className='pages'>
-                <a className='page'>1</a>
-                <a className='page'>2</a>
-                <a className='page active'>3</a>
-                <a className='page'>4</a>
-                <a className='page'>5</a>
+            <div className='pagination__pages'>
+                <span className='pagination__page'>1</span>
+                <span className='pagination__page'>2</span>
+                <span className='pagination__page active'>3</span>
+                <span className='pagination__page'>4</span>
+                <span className='pagination__page'>5</span>
             </div>
             <img src={rightArrow} alt='right-arrow' />
         </div>

@@ -1,3 +1,5 @@
+@import '../../style/variables.scss';
+
 .avatar{
   display: grid;
   grid-area: avatar;
@@ -27,7 +29,7 @@
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.75px;
-    color: #324552;
+    color: $black;
   }
 
   &__bell{

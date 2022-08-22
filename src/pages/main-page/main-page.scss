@@ -1,6 +1,8 @@
+@import '../../style/variables.scss';
+
 .wrap{
   font-family: 'Inter', sans-serif;
-  color: #324552;
+  color: $black;
 
   display: grid;
   grid-template-columns: 16% 1fr 1fr;
@@ -12,7 +14,7 @@
 
 .content{
   grid-area: content;
-  background: #FCFCFC;
+  background: $background-content;
   border-radius: 30px;
   min-width: 50%;
   margin-top: 40px;

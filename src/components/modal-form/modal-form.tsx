@@ -19,13 +19,13 @@ const ModalForm: React.FC<IModalForm> = ({ active, setActive }) => {
             <div
                 className='modal__content'
                 onClick={(e) => e.stopPropagation()}>
-                <h2 className='modal-title'>Фильтр</h2>
+                <h2 className='modal__title'>Фильтр</h2>
 
                 <InputForm label={'№'} placeholder={'Номер'} />
                 <Select
                     label={'Статус клиента'}
                     initialValue={'Все статусы'}
-                    optionList={LIST_STATUS_CLIENT}
+                    optionList={Object.keys(LIST_STATUS_CLIENT)}
                 />
                 <InputForm label={'Имя клиента'} placeholder={'Введите имя'} />
                 <InputForm label={'Телефон'} placeholder={'Введите номер'} />
@@ -37,7 +37,7 @@ const ModalForm: React.FC<IModalForm> = ({ active, setActive }) => {
                 <InputForm label={'Имя клиента'} placeholder={'Введите имя'} />
                 <Checkbox label={'Показать заблокированных'} />
 
-                <div className='wrapper-button'>
+                <div className='modal__wrapper-button'>
                     <ButtonForm />
                 </div>
             </div>

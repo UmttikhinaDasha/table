@@ -1,3 +1,5 @@
+@import '../../style/variables.scss';
+
 .button{
   display: flex;
   align-items: center;
@@ -8,10 +10,10 @@
   font-size: 16px;
   line-height: 150%;
 
-  color: #324552;
+  color: $black;
   border: 1.5px solid rgba(34, 149, 242, 0.5);
   border-radius: 12px;
-  background: #FFFFFF;
+  background: white;
   margin-left: 16px;
 
   &__text{
@@ -20,5 +22,13 @@
 
   &__img{
     padding-left: 20px;
+  }
+
+  &:active{
+    background: $background-table;
+  }
+
+  &:hover{
+    background: $background-table;
   }
 }

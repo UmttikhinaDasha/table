@@ -1,3 +1,5 @@
+@import '../../style/variables.scss';
+
 .pagination {
   display: flex;
   align-items: center;
@@ -5,31 +7,34 @@
   gap: 16px;
   margin-top: 55px;
   margin-bottom: 40px;
-}
-.pages {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-.page {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  font-size: 16px;
-  color: #A3AEB9;
-  cursor: pointer;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.page:hover {
-  background-color: #2295F2;;
-  color: #FFFFFF;
-}
+  &__pages{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-.active {
-  background-color: #2295F2;;
-  color: #FFFFFF;
+  &__page{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: $gray;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &.active {
+      background-color: $main-sky-blue;
+      color: white;
+    }
+  }
+
+  &__page:hover {
+    background-color: $main-sky-blue;
+    color: white;
+  }
 }

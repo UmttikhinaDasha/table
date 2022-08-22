@@ -4,7 +4,7 @@ import './avatar.scss';
 // @ts-ignore
 import avatar from '../../images/avatar.png';
 // @ts-ignore
-import bell from '../../images/bell.png';
+import bell from '../../images/bell.svg';
 
 interface IAvatar {
     firstName: string;
